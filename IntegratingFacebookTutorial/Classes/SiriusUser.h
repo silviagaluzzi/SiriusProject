@@ -7,7 +7,7 @@
 //
 
 #import <Parse/Parse.h>
-//commit di prova
+
 @interface SiriusUser : PFUser
 
 @property (strong) NSString	*emailVerified;

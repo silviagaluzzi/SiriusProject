@@ -7,6 +7,7 @@
 //
 
 #import <Parse/Parse.h>
+#import <ParseFacebookUtils/PFFacebookUtils.h>
 #import "SiriusTabBarControllerViewController.h"
 #import "SiriusUser.h"
 #import "SiriusLogInViewController.h"
@@ -17,6 +18,7 @@
 
 @interface SiriusTabBarControllerViewController ()
 
+- (void)loggedInAsUser:(SiriusUser *)user;
 @end
 
 @implementation SiriusTabBarControllerViewController
@@ -118,5 +120,46 @@
       
 }
 
+- (void)loggedInAsUser:(SiriusUser *)user {
+    
+   /*if (![[MainController sharedController] isValidUser:user] && [PFFacebookUtils isLinkedWithUser: user]) {
+        
+        //TODO: progress hud
+//        [SVProgressHUD showWithStatus:NSLocalizedString(@"Loading", nil)];
+        
+        [FBRequestConnection startForMeWithCompletionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
+            if (!error) {
+                [[MainController sharedController] facebookRequestDidLoad:result];
+            } else {
+                [[MainController sharedController] facebookRequestDidFailWithError:error];
+            }
+            [self dismissViewControllerAnimated:YES completion:nil];
+            
+            [SVProgressHUD dismiss];
+        }];
+    } else {
+        if (!user.displayName) {
+            user.displayName	= [user username];
+            [user saveEventually];
+        }
+    */
+        
+        [self dismissViewControllerAnimated:YES completion:nil];
+    //}
+    
+    //TODO:PUSH NOTIFICATIONS
+//    [[MainController sharedController] updateUserForPushNotifications: user];
+    
+    self.selectedIndex	= 0;
+    
+    [[MainController sharedController] postNotificationWithName:NOTIFICATIONS_HOME_RELOAD];
+}
+
+#pragma mark - PFLogInViewControllerDelegate
+
+- (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(SiriusUser *)user
+{
+    [self loggedInAsUser:user];
+}
 
 @end
