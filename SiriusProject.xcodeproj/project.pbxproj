@@ -8,47 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		30C949AC1829561000B17666 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C949AB1829561000B17666 /* FacebookSDK.framework */; };
-		55C7D5391A83B58B009D59D3 /* SiriusActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D5271A83B58B009D59D3 /* SiriusActivityViewController.m */; };
-		55C7D53A1A83B58B009D59D3 /* SiriusActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C7D5281A83B58B009D59D3 /* SiriusActivityViewController.xib */; };
-		55C7D53B1A83B58B009D59D3 /* SiriusCameraNavControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D52A1A83B58B009D59D3 /* SiriusCameraNavControllerViewController.m */; };
-		55C7D53C1A83B58B009D59D3 /* SiriusCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D52C1A83B58B009D59D3 /* SiriusCameraViewController.m */; };
-		55C7D53D1A83B58B009D59D3 /* SiriusCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C7D52D1A83B58B009D59D3 /* SiriusCameraViewController.xib */; };
-		55C7D53E1A83B58B009D59D3 /* SiriusFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D52F1A83B58B009D59D3 /* SiriusFeedViewController.m */; };
-		55C7D53F1A83B58B009D59D3 /* SiriusFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C7D5301A83B58B009D59D3 /* SiriusFeedViewController.xib */; };
-		55C7D5401A83B58B009D59D3 /* SiriusLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D5321A83B58B009D59D3 /* SiriusLogInViewController.m */; };
-		55C7D5411A83B58B009D59D3 /* SiriusProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D5341A83B58B009D59D3 /* SiriusProfileViewController.m */; };
-		55C7D5421A83B58B009D59D3 /* SiriusProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C7D5351A83B58B009D59D3 /* SiriusProfileViewController.xib */; };
-		55C7D5431A83B58B009D59D3 /* SiriusTabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D5371A83B58B009D59D3 /* SiriusTabBarControllerViewController.m */; };
-		55C7D5441A83B58B009D59D3 /* SiriusTabBarControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C7D5381A83B58B009D59D3 /* SiriusTabBarControllerViewController.xib */; };
-		55C7D5471A83B5C8009D59D3 /* SiriusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D5461A83B5C8009D59D3 /* SiriusViewController.m */; };
-		55C7D54E1A83B6E2009D59D3 /* SiriusActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D54D1A83B6E2009D59D3 /* SiriusActivity.m */; };
-		55C7D5531A83B71C009D59D3 /* SiriusPet.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D5501A83B71C009D59D3 /* SiriusPet.m */; };
-		55C7D5541A83B71C009D59D3 /* SiriusPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D5521A83B71C009D59D3 /* SiriusPhoto.m */; };
-		55C7D5571A83B72A009D59D3 /* SiriusUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D5561A83B72A009D59D3 /* SiriusUser.m */; };
-		55C7D5631A83B8A4009D59D3 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D5621A83B8A4009D59D3 /* MainController.m */; };
+		554CDCDC1A867EAA00B20E25 /* SiriusPet.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDCD91A867EAA00B20E25 /* SiriusPet.m */; };
+		554CDCDD1A867EAA00B20E25 /* SiriusPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDCDB1A867EAA00B20E25 /* SiriusPhoto.m */; };
+		554CDCE01A867EBA00B20E25 /* SiriusUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDCDF1A867EBA00B20E25 /* SiriusUser.m */; };
+		554CDCE31A867ED800B20E25 /* SiriusActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDCE21A867ED800B20E25 /* SiriusActivity.m */; };
+		554CDCE71A867F0800B20E25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDCE41A867F0800B20E25 /* main.m */; };
+		554CDCE81A867F0800B20E25 /* SiriusProject-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCE51A867F0800B20E25 /* SiriusProject-Info.plist */; };
+		554CDCF41A867F3700B20E25 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCE91A867F3700B20E25 /* Default-568h@2x.png */; };
+		554CDCF51A867F3700B20E25 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCEA1A867F3700B20E25 /* Default.png */; };
+		554CDCF61A867F3700B20E25 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCEB1A867F3700B20E25 /* Default@2x.png */; };
+		554CDCF71A867F3700B20E25 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCEC1A867F3700B20E25 /* Icon.png */; };
+		554CDCF81A867F3700B20E25 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCED1A867F3700B20E25 /* Icon@2x.png */; };
+		554CDCF91A867F3700B20E25 /* login-button-small-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCEE1A867F3700B20E25 /* login-button-small-pressed.png */; };
+		554CDCFA1A867F3700B20E25 /* login-button-small-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCEF1A867F3700B20E25 /* login-button-small-pressed@2x.png */; };
+		554CDCFB1A867F3700B20E25 /* login-button-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCF01A867F3700B20E25 /* login-button-small.png */; };
+		554CDCFC1A867F3700B20E25 /* login-button-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCF11A867F3700B20E25 /* login-button-small@2x.png */; };
+		554CDCFD1A867F3700B20E25 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCF21A867F3700B20E25 /* LoginViewController.xib */; };
+		554CDCFE1A867F3700B20E25 /* TableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCF31A867F3700B20E25 /* TableHeaderView.xib */; };
+		554CDD011A867F7300B20E25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 554CDCFF1A867F7300B20E25 /* InfoPlist.strings */; };
+		554CDD031A867FB000B20E25 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 554CDD021A867FB000B20E25 /* libGoogleAnalyticsServices.a */; };
+		554CDD111A867FC800B20E25 /* SiriusActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD051A867FC800B20E25 /* SiriusActivityViewController.m */; };
+		554CDD121A867FC800B20E25 /* SiriusActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554CDD061A867FC800B20E25 /* SiriusActivityViewController.xib */; };
+		554CDD131A867FC800B20E25 /* SiriusCameraNavControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD081A867FC800B20E25 /* SiriusCameraNavControllerViewController.m */; };
+		554CDD141A867FC800B20E25 /* SiriusCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD0A1A867FC800B20E25 /* SiriusCameraViewController.m */; };
+		554CDD151A867FC800B20E25 /* SiriusCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554CDD0B1A867FC800B20E25 /* SiriusCameraViewController.xib */; };
+		554CDD161A867FC800B20E25 /* SiriusFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD0D1A867FC800B20E25 /* SiriusFeedViewController.m */; };
+		554CDD171A867FC800B20E25 /* SiriusFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554CDD0E1A867FC800B20E25 /* SiriusFeedViewController.xib */; };
+		554CDD181A867FC800B20E25 /* SiriusLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD101A867FC800B20E25 /* SiriusLogInViewController.m */; };
+		554CDD211A867FE500B20E25 /* SiriusProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD1A1A867FE500B20E25 /* SiriusProfileViewController.m */; };
+		554CDD221A867FE500B20E25 /* SiriusProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554CDD1B1A867FE500B20E25 /* SiriusProfileViewController.xib */; };
+		554CDD231A867FE500B20E25 /* SiriusSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD1D1A867FE500B20E25 /* SiriusSignUpViewController.m */; };
+		554CDD241A867FE500B20E25 /* SiriusTabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD1F1A867FE500B20E25 /* SiriusTabBarControllerViewController.m */; };
+		554CDD251A867FE500B20E25 /* SiriusTabBarControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554CDD201A867FE500B20E25 /* SiriusTabBarControllerViewController.xib */; };
+		554CDD291A86800200B20E25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD281A86800200B20E25 /* AppDelegate.m */; };
+		554CDD2D1A86800E00B20E25 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD2B1A86800E00B20E25 /* MainController.m */; };
+		554CDD391A86802A00B20E25 /* PAPBaseTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD301A86802A00B20E25 /* PAPBaseTextCell.m */; };
+		554CDD3A1A86802A00B20E25 /* PAPCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD321A86802A00B20E25 /* PAPCache.m */; };
+		554CDD3B1A86802A00B20E25 /* PAPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD341A86802A00B20E25 /* PAPConstants.m */; };
+		554CDD3C1A86802A00B20E25 /* PAPProfileImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD361A86802A00B20E25 /* PAPProfileImageView.m */; };
+		554CDD3D1A86802A00B20E25 /* PAPUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD381A86802A00B20E25 /* PAPUtility.m */; };
+		554CDD441A86810200B20E25 /* UIImage+AlphaAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD3F1A86810200B20E25 /* UIImage+AlphaAdditions.m */; };
+		554CDD451A86810200B20E25 /* UIImage+ResizeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD411A86810200B20E25 /* UIImage+ResizeAdditions.m */; };
+		554CDD461A86810200B20E25 /* UIImage+RoundedCornerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD431A86810200B20E25 /* UIImage+RoundedCornerAdditions.m */; };
+		554CDD491A86839000B20E25 /* TTTTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD481A86839000B20E25 /* TTTTimeIntervalFormatter.m */; };
+		554CDD4D1A8685F100B20E25 /* SiriusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD4C1A8685F100B20E25 /* SiriusViewController.m */; };
 		55C7D5651A83B962009D59D3 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C7D5641A83B962009D59D3 /* Accounts.framework */; };
 		55C7D5671A83B969009D59D3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C7D5661A83B969009D59D3 /* Social.framework */; };
-		55C7D56E1A83BCF2009D59D3 /* SiriusSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7D56D1A83BCF2009D59D3 /* SiriusSignUpViewController.m */; };
 		55C7D5701A83C164009D59D3 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C7D56F1A83C164009D59D3 /* Parse.framework */; };
 		6D10F48316DD68E000690A0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D10F48216DD68E000690A0F /* CoreLocation.framework */; };
 		8103BCCD19AD1F8900BCF4C7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8103BCCB19AD1F8900BCF4C7 /* Bolts.framework */; };
 		8103BCCE19AD1F8900BCF4C7 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8103BCCC19AD1F8900BCF4C7 /* ParseFacebookUtils.framework */; };
-		8103BCEB19AD217900BCF4C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103BCD419AD217900BCF4C7 /* AppDelegate.m */; };
-		8103BCEC19AD217900BCF4C7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103BCD619AD217900BCF4C7 /* LoginViewController.m */; };
-		8103BCED19AD217900BCF4C7 /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103BCD819AD217900BCF4C7 /* UserDetailsViewController.m */; };
-		8103BCF019AD217900BCF4C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103BCDE19AD217900BCF4C7 /* Default-568h@2x.png */; };
-		8103BCF119AD217900BCF4C7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103BCDF19AD217900BCF4C7 /* Default.png */; };
-		8103BCF219AD217900BCF4C7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103BCE019AD217900BCF4C7 /* Default@2x.png */; };
-		8103BCF419AD217900BCF4C7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103BCE319AD217900BCF4C7 /* Icon.png */; };
-		8103BCF519AD217900BCF4C7 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103BCE419AD217900BCF4C7 /* Icon@2x.png */; };
-		8103BCF619AD217900BCF4C7 /* login-button-small-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103BCE519AD217900BCF4C7 /* login-button-small-pressed.png */; };
-		8103BCF719AD217900BCF4C7 /* login-button-small-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103BCE619AD217900BCF4C7 /* login-button-small-pressed@2x.png */; };
-		8103BCF819AD217900BCF4C7 /* login-button-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103BCE719AD217900BCF4C7 /* login-button-small.png */; };
-		8103BCF919AD217900BCF4C7 /* login-button-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103BCE819AD217900BCF4C7 /* login-button-small@2x.png */; };
-		8103BCFA19AD217900BCF4C7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8103BCE919AD217900BCF4C7 /* LoginViewController.xib */; };
-		8103BCFB19AD217900BCF4C7 /* TableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8103BCEA19AD217900BCF4C7 /* TableHeaderView.xib */; };
-		8103BD0C19AD21C300BCF4C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8103BD0719AD21C300BCF4C7 /* InfoPlist.strings */; };
-		8103BD0E19AD21C300BCF4C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103BD0B19AD21C300BCF4C7 /* main.m */; };
 		C425016D161BBAE400474BCD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4250169161BBAE400474BCD /* StoreKit.framework */; };
 		C4250170161BBAEE00474BCD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C425016F161BBAEE00474BCD /* libz.dylib */; };
 		D4DA79EF14D3345A0055F672 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DA79EE14D3345A0055F672 /* UIKit.framework */; };
@@ -64,70 +73,84 @@
 
 /* Begin PBXFileReference section */
 		30C949AB1829561000B17666 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
-		55C7D5261A83B58B009D59D3 /* SiriusActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriusActivityViewController.h; sourceTree = "<group>"; };
-		55C7D5271A83B58B009D59D3 /* SiriusActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriusActivityViewController.m; sourceTree = "<group>"; };
-		55C7D5281A83B58B009D59D3 /* SiriusActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SiriusActivityViewController.xib; sourceTree = "<group>"; };
-		55C7D5291A83B58B009D59D3 /* SiriusCameraNavControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriusCameraNavControllerViewController.h; sourceTree = "<group>"; };
-		55C7D52A1A83B58B009D59D3 /* SiriusCameraNavControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriusCameraNavControllerViewController.m; sourceTree = "<group>"; };
-		55C7D52B1A83B58B009D59D3 /* SiriusCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriusCameraViewController.h; sourceTree = "<group>"; };
-		55C7D52C1A83B58B009D59D3 /* SiriusCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriusCameraViewController.m; sourceTree = "<group>"; };
-		55C7D52D1A83B58B009D59D3 /* SiriusCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SiriusCameraViewController.xib; sourceTree = "<group>"; };
-		55C7D52E1A83B58B009D59D3 /* SiriusFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriusFeedViewController.h; sourceTree = "<group>"; };
-		55C7D52F1A83B58B009D59D3 /* SiriusFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriusFeedViewController.m; sourceTree = "<group>"; };
-		55C7D5301A83B58B009D59D3 /* SiriusFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SiriusFeedViewController.xib; sourceTree = "<group>"; };
-		55C7D5311A83B58B009D59D3 /* SiriusLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriusLogInViewController.h; sourceTree = "<group>"; };
-		55C7D5321A83B58B009D59D3 /* SiriusLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriusLogInViewController.m; sourceTree = "<group>"; };
-		55C7D5331A83B58B009D59D3 /* SiriusProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriusProfileViewController.h; sourceTree = "<group>"; };
-		55C7D5341A83B58B009D59D3 /* SiriusProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriusProfileViewController.m; sourceTree = "<group>"; };
-		55C7D5351A83B58B009D59D3 /* SiriusProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SiriusProfileViewController.xib; sourceTree = "<group>"; };
-		55C7D5361A83B58B009D59D3 /* SiriusTabBarControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriusTabBarControllerViewController.h; sourceTree = "<group>"; };
-		55C7D5371A83B58B009D59D3 /* SiriusTabBarControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriusTabBarControllerViewController.m; sourceTree = "<group>"; };
-		55C7D5381A83B58B009D59D3 /* SiriusTabBarControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SiriusTabBarControllerViewController.xib; sourceTree = "<group>"; };
-		55C7D5451A83B5C8009D59D3 /* SiriusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriusViewController.h; sourceTree = "<group>"; };
-		55C7D5461A83B5C8009D59D3 /* SiriusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriusViewController.m; sourceTree = "<group>"; };
-		55C7D5491A83B640009D59D3 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
-		55C7D54C1A83B6E2009D59D3 /* SiriusActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusActivity.h; path = IntegratingFacebookTutorial/Classes/SiriusActivity.h; sourceTree = "<group>"; };
-		55C7D54D1A83B6E2009D59D3 /* SiriusActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusActivity.m; path = IntegratingFacebookTutorial/Classes/SiriusActivity.m; sourceTree = "<group>"; };
-		55C7D54F1A83B71C009D59D3 /* SiriusPet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusPet.h; path = IntegratingFacebookTutorial/Classes/SiriusPet.h; sourceTree = "<group>"; };
-		55C7D5501A83B71C009D59D3 /* SiriusPet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusPet.m; path = IntegratingFacebookTutorial/Classes/SiriusPet.m; sourceTree = "<group>"; };
-		55C7D5511A83B71C009D59D3 /* SiriusPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusPhoto.h; path = IntegratingFacebookTutorial/Classes/SiriusPhoto.h; sourceTree = "<group>"; };
-		55C7D5521A83B71C009D59D3 /* SiriusPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusPhoto.m; path = IntegratingFacebookTutorial/Classes/SiriusPhoto.m; sourceTree = "<group>"; };
-		55C7D5551A83B72A009D59D3 /* SiriusUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusUser.h; path = IntegratingFacebookTutorial/Classes/SiriusUser.h; sourceTree = "<group>"; };
-		55C7D5561A83B72A009D59D3 /* SiriusUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusUser.m; path = IntegratingFacebookTutorial/Classes/SiriusUser.m; sourceTree = "<group>"; };
-		55C7D5601A83B844009D59D3 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
-		55C7D5611A83B8A4009D59D3 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
-		55C7D5621A83B8A4009D59D3 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		554CDCD81A867EAA00B20E25 /* SiriusPet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusPet.h; path = Sirius/Classes/SiriusPet.h; sourceTree = "<group>"; };
+		554CDCD91A867EAA00B20E25 /* SiriusPet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusPet.m; path = Sirius/Classes/SiriusPet.m; sourceTree = "<group>"; };
+		554CDCDA1A867EAA00B20E25 /* SiriusPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusPhoto.h; path = Sirius/Classes/SiriusPhoto.h; sourceTree = "<group>"; };
+		554CDCDB1A867EAA00B20E25 /* SiriusPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusPhoto.m; path = Sirius/Classes/SiriusPhoto.m; sourceTree = "<group>"; };
+		554CDCDE1A867EBA00B20E25 /* SiriusUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusUser.h; path = Sirius/Classes/SiriusUser.h; sourceTree = "<group>"; };
+		554CDCDF1A867EBA00B20E25 /* SiriusUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusUser.m; path = Sirius/Classes/SiriusUser.m; sourceTree = "<group>"; };
+		554CDCE11A867ED800B20E25 /* SiriusActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusActivity.h; path = Sirius/Classes/SiriusActivity.h; sourceTree = "<group>"; };
+		554CDCE21A867ED800B20E25 /* SiriusActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusActivity.m; path = Sirius/Classes/SiriusActivity.m; sourceTree = "<group>"; };
+		554CDCE41A867F0800B20E25 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Sirius/Supporting Files/main.m"; sourceTree = SOURCE_ROOT; };
+		554CDCE51A867F0800B20E25 /* SiriusProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SiriusProject-Info.plist"; path = "Sirius/Supporting Files/SiriusProject-Info.plist"; sourceTree = SOURCE_ROOT; };
+		554CDCE61A867F0800B20E25 /* SiriusProject-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SiriusProject-Prefix.pch"; path = "Sirius/Supporting Files/SiriusProject-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		554CDCE91A867F3700B20E25 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Sirius/Resources/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		554CDCEA1A867F3700B20E25 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Sirius/Resources/Default.png; sourceTree = SOURCE_ROOT; };
+		554CDCEB1A867F3700B20E25 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Sirius/Resources/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		554CDCEC1A867F3700B20E25 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Sirius/Resources/Icon.png; sourceTree = SOURCE_ROOT; };
+		554CDCED1A867F3700B20E25 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Sirius/Resources/Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		554CDCEE1A867F3700B20E25 /* login-button-small-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login-button-small-pressed.png"; path = "Sirius/Resources/login-button-small-pressed.png"; sourceTree = SOURCE_ROOT; };
+		554CDCEF1A867F3700B20E25 /* login-button-small-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login-button-small-pressed@2x.png"; path = "Sirius/Resources/login-button-small-pressed@2x.png"; sourceTree = SOURCE_ROOT; };
+		554CDCF01A867F3700B20E25 /* login-button-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login-button-small.png"; path = "Sirius/Resources/login-button-small.png"; sourceTree = SOURCE_ROOT; };
+		554CDCF11A867F3700B20E25 /* login-button-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login-button-small@2x.png"; path = "Sirius/Resources/login-button-small@2x.png"; sourceTree = SOURCE_ROOT; };
+		554CDCF21A867F3700B20E25 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Sirius/Resources/LoginViewController.xib; sourceTree = SOURCE_ROOT; };
+		554CDCF31A867F3700B20E25 /* TableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableHeaderView.xib; path = Sirius/Resources/TableHeaderView.xib; sourceTree = SOURCE_ROOT; };
+		554CDD001A867F7300B20E25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "Sirius/Supporting Files/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		554CDD021A867FB000B20E25 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = Sirius/Classes/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		554CDD041A867FC800B20E25 /* SiriusActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusActivityViewController.h; path = Sirius/Classes/SiriusActivityViewController.h; sourceTree = SOURCE_ROOT; };
+		554CDD051A867FC800B20E25 /* SiriusActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusActivityViewController.m; path = Sirius/Classes/SiriusActivityViewController.m; sourceTree = SOURCE_ROOT; };
+		554CDD061A867FC800B20E25 /* SiriusActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SiriusActivityViewController.xib; path = Sirius/Classes/SiriusActivityViewController.xib; sourceTree = SOURCE_ROOT; };
+		554CDD071A867FC800B20E25 /* SiriusCameraNavControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusCameraNavControllerViewController.h; path = Sirius/Classes/SiriusCameraNavControllerViewController.h; sourceTree = SOURCE_ROOT; };
+		554CDD081A867FC800B20E25 /* SiriusCameraNavControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusCameraNavControllerViewController.m; path = Sirius/Classes/SiriusCameraNavControllerViewController.m; sourceTree = SOURCE_ROOT; };
+		554CDD091A867FC800B20E25 /* SiriusCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusCameraViewController.h; path = Sirius/Classes/SiriusCameraViewController.h; sourceTree = SOURCE_ROOT; };
+		554CDD0A1A867FC800B20E25 /* SiriusCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusCameraViewController.m; path = Sirius/Classes/SiriusCameraViewController.m; sourceTree = SOURCE_ROOT; };
+		554CDD0B1A867FC800B20E25 /* SiriusCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SiriusCameraViewController.xib; path = Sirius/Classes/SiriusCameraViewController.xib; sourceTree = SOURCE_ROOT; };
+		554CDD0C1A867FC800B20E25 /* SiriusFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusFeedViewController.h; path = Sirius/Classes/SiriusFeedViewController.h; sourceTree = SOURCE_ROOT; };
+		554CDD0D1A867FC800B20E25 /* SiriusFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusFeedViewController.m; path = Sirius/Classes/SiriusFeedViewController.m; sourceTree = SOURCE_ROOT; };
+		554CDD0E1A867FC800B20E25 /* SiriusFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SiriusFeedViewController.xib; path = Sirius/Classes/SiriusFeedViewController.xib; sourceTree = SOURCE_ROOT; };
+		554CDD0F1A867FC800B20E25 /* SiriusLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusLogInViewController.h; path = Sirius/Classes/SiriusLogInViewController.h; sourceTree = SOURCE_ROOT; };
+		554CDD101A867FC800B20E25 /* SiriusLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusLogInViewController.m; path = Sirius/Classes/SiriusLogInViewController.m; sourceTree = SOURCE_ROOT; };
+		554CDD191A867FE500B20E25 /* SiriusProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusProfileViewController.h; path = Sirius/Classes/SiriusProfileViewController.h; sourceTree = SOURCE_ROOT; };
+		554CDD1A1A867FE500B20E25 /* SiriusProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusProfileViewController.m; path = Sirius/Classes/SiriusProfileViewController.m; sourceTree = SOURCE_ROOT; };
+		554CDD1B1A867FE500B20E25 /* SiriusProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SiriusProfileViewController.xib; path = Sirius/Classes/SiriusProfileViewController.xib; sourceTree = SOURCE_ROOT; };
+		554CDD1C1A867FE500B20E25 /* SiriusSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusSignUpViewController.h; path = Sirius/Classes/SiriusSignUpViewController.h; sourceTree = SOURCE_ROOT; };
+		554CDD1D1A867FE500B20E25 /* SiriusSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusSignUpViewController.m; path = Sirius/Classes/SiriusSignUpViewController.m; sourceTree = SOURCE_ROOT; };
+		554CDD1E1A867FE500B20E25 /* SiriusTabBarControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusTabBarControllerViewController.h; path = Sirius/Classes/SiriusTabBarControllerViewController.h; sourceTree = SOURCE_ROOT; };
+		554CDD1F1A867FE500B20E25 /* SiriusTabBarControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusTabBarControllerViewController.m; path = Sirius/Classes/SiriusTabBarControllerViewController.m; sourceTree = SOURCE_ROOT; };
+		554CDD201A867FE500B20E25 /* SiriusTabBarControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SiriusTabBarControllerViewController.xib; path = Sirius/Classes/SiriusTabBarControllerViewController.xib; sourceTree = SOURCE_ROOT; };
+		554CDD261A867FF400B20E25 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = Sirius/Classes/Utility.h; sourceTree = SOURCE_ROOT; };
+		554CDD271A86800200B20E25 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Sirius/Classes/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		554CDD281A86800200B20E25 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Sirius/Classes/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		554CDD2A1A86800E00B20E25 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainController.h; path = Sirius/Classes/MainController.h; sourceTree = SOURCE_ROOT; };
+		554CDD2B1A86800E00B20E25 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainController.m; path = Sirius/Classes/MainController.m; sourceTree = SOURCE_ROOT; };
+		554CDD2C1A86800E00B20E25 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Notifications.h; path = Sirius/Classes/Notifications.h; sourceTree = SOURCE_ROOT; };
+		554CDD2F1A86802A00B20E25 /* PAPBaseTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAPBaseTextCell.h; path = Sirius/Classes/PAPBaseTextCell.h; sourceTree = SOURCE_ROOT; };
+		554CDD301A86802A00B20E25 /* PAPBaseTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPBaseTextCell.m; path = Sirius/Classes/PAPBaseTextCell.m; sourceTree = SOURCE_ROOT; };
+		554CDD311A86802A00B20E25 /* PAPCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAPCache.h; path = Sirius/Classes/PAPCache.h; sourceTree = SOURCE_ROOT; };
+		554CDD321A86802A00B20E25 /* PAPCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPCache.m; path = Sirius/Classes/PAPCache.m; sourceTree = SOURCE_ROOT; };
+		554CDD331A86802A00B20E25 /* PAPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAPConstants.h; path = Sirius/Classes/PAPConstants.h; sourceTree = SOURCE_ROOT; };
+		554CDD341A86802A00B20E25 /* PAPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPConstants.m; path = Sirius/Classes/PAPConstants.m; sourceTree = SOURCE_ROOT; };
+		554CDD351A86802A00B20E25 /* PAPProfileImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAPProfileImageView.h; path = Sirius/Classes/PAPProfileImageView.h; sourceTree = SOURCE_ROOT; };
+		554CDD361A86802A00B20E25 /* PAPProfileImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPProfileImageView.m; path = Sirius/Classes/PAPProfileImageView.m; sourceTree = SOURCE_ROOT; };
+		554CDD371A86802A00B20E25 /* PAPUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAPUtility.h; path = Sirius/Classes/PAPUtility.h; sourceTree = SOURCE_ROOT; };
+		554CDD381A86802A00B20E25 /* PAPUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPUtility.m; path = Sirius/Classes/PAPUtility.m; sourceTree = SOURCE_ROOT; };
+		554CDD3E1A86810200B20E25 /* UIImage+AlphaAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+AlphaAdditions.h"; path = "Sirius/Classes/UIImage+AlphaAdditions.h"; sourceTree = SOURCE_ROOT; };
+		554CDD3F1A86810200B20E25 /* UIImage+AlphaAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+AlphaAdditions.m"; path = "Sirius/Classes/UIImage+AlphaAdditions.m"; sourceTree = SOURCE_ROOT; };
+		554CDD401A86810200B20E25 /* UIImage+ResizeAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ResizeAdditions.h"; path = "Sirius/Classes/UIImage+ResizeAdditions.h"; sourceTree = SOURCE_ROOT; };
+		554CDD411A86810200B20E25 /* UIImage+ResizeAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ResizeAdditions.m"; path = "Sirius/Classes/UIImage+ResizeAdditions.m"; sourceTree = SOURCE_ROOT; };
+		554CDD421A86810200B20E25 /* UIImage+RoundedCornerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+RoundedCornerAdditions.h"; path = "Sirius/Classes/UIImage+RoundedCornerAdditions.h"; sourceTree = SOURCE_ROOT; };
+		554CDD431A86810200B20E25 /* UIImage+RoundedCornerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RoundedCornerAdditions.m"; path = "Sirius/Classes/UIImage+RoundedCornerAdditions.m"; sourceTree = SOURCE_ROOT; };
+		554CDD471A86839000B20E25 /* TTTTimeIntervalFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTTimeIntervalFormatter.h; path = Sirius/Classes/TTTTimeIntervalFormatter.h; sourceTree = "<group>"; };
+		554CDD481A86839000B20E25 /* TTTTimeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTTimeIntervalFormatter.m; path = Sirius/Classes/TTTTimeIntervalFormatter.m; sourceTree = "<group>"; };
+		554CDD4B1A8685F100B20E25 /* SiriusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusViewController.h; path = Sirius/Classes/SiriusViewController.h; sourceTree = SOURCE_ROOT; };
+		554CDD4C1A8685F100B20E25 /* SiriusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusViewController.m; path = Sirius/Classes/SiriusViewController.m; sourceTree = SOURCE_ROOT; };
 		55C7D5641A83B962009D59D3 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		55C7D5661A83B969009D59D3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		55C7D5681A83BB35009D59D3 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = IntegratingFacebookTutorial/Classes/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		55C7D56A1A83BBEB009D59D3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		55C7D56C1A83BCD8009D59D3 /* SiriusSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiriusSignUpViewController.h; sourceTree = "<group>"; };
-		55C7D56D1A83BCF2009D59D3 /* SiriusSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiriusSignUpViewController.m; sourceTree = "<group>"; };
 		55C7D56F1A83C164009D59D3 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		6D10F48216DD68E000690A0F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		8103BCCB19AD1F8900BCF4C7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		8103BCCC19AD1F8900BCF4C7 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
-		8103BCD319AD217900BCF4C7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8103BCD419AD217900BCF4C7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8103BCD519AD217900BCF4C7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		8103BCD619AD217900BCF4C7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		8103BCD719AD217900BCF4C7 /* UserDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsViewController.h; sourceTree = "<group>"; };
-		8103BCD819AD217900BCF4C7 /* UserDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
-		8103BCDE19AD217900BCF4C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8103BCDF19AD217900BCF4C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		8103BCE019AD217900BCF4C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		8103BCE319AD217900BCF4C7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		8103BCE419AD217900BCF4C7 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		8103BCE519AD217900BCF4C7 /* login-button-small-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small-pressed.png"; sourceTree = "<group>"; };
-		8103BCE619AD217900BCF4C7 /* login-button-small-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small-pressed@2x.png"; sourceTree = "<group>"; };
-		8103BCE719AD217900BCF4C7 /* login-button-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small.png"; sourceTree = "<group>"; };
-		8103BCE819AD217900BCF4C7 /* login-button-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small@2x.png"; sourceTree = "<group>"; };
-		8103BCE919AD217900BCF4C7 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		8103BCEA19AD217900BCF4C7 /* TableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableHeaderView.xib; sourceTree = "<group>"; };
-		8103BD0819AD21C300BCF4C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8103BD0919AD21C300BCF4C7 /* SiriusProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SiriusProject-Info.plist"; sourceTree = "<group>"; };
-		8103BD0A19AD21C300BCF4C7 /* SiriusProject-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SiriusProject-Prefix.pch"; sourceTree = "<group>"; };
-		8103BD0B19AD21C300BCF4C7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4250169161BBAE400474BCD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		C425016F161BBAEE00474BCD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		D4DA79EA14D3345A0055F672 /* SiriusProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiriusProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +184,7 @@
 				D4DA7A1314D334F30055F672 /* Security.framework in Frameworks */,
 				30C949AC1829561000B17666 /* FacebookSDK.framework in Frameworks */,
 				D4DA7A1414D334F30055F672 /* SystemConfiguration.framework in Frameworks */,
+				554CDD031A867FB000B20E25 /* libGoogleAnalyticsServices.a in Frameworks */,
 				D4DA79EF14D3345A0055F672 /* UIKit.framework in Frameworks */,
 				D4DA79F114D3345A0055F672 /* Foundation.framework in Frameworks */,
 				8103BCCE19AD1F8900BCF4C7 /* ParseFacebookUtils.framework in Frameworks */,
@@ -171,17 +195,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		554CDD2E1A86801B00B20E25 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				554CDD2F1A86802A00B20E25 /* PAPBaseTextCell.h */,
+				554CDD301A86802A00B20E25 /* PAPBaseTextCell.m */,
+				554CDD311A86802A00B20E25 /* PAPCache.h */,
+				554CDD321A86802A00B20E25 /* PAPCache.m */,
+				554CDD331A86802A00B20E25 /* PAPConstants.h */,
+				554CDD341A86802A00B20E25 /* PAPConstants.m */,
+				554CDD351A86802A00B20E25 /* PAPProfileImageView.h */,
+				554CDD361A86802A00B20E25 /* PAPProfileImageView.m */,
+				554CDD371A86802A00B20E25 /* PAPUtility.h */,
+				554CDD381A86802A00B20E25 /* PAPUtility.m */,
+				554CDD3E1A86810200B20E25 /* UIImage+AlphaAdditions.h */,
+				554CDD3F1A86810200B20E25 /* UIImage+AlphaAdditions.m */,
+				554CDD401A86810200B20E25 /* UIImage+ResizeAdditions.h */,
+				554CDD411A86810200B20E25 /* UIImage+ResizeAdditions.m */,
+				554CDD421A86810200B20E25 /* UIImage+RoundedCornerAdditions.h */,
+				554CDD431A86810200B20E25 /* UIImage+RoundedCornerAdditions.m */,
+			);
+			name = Parse;
+			sourceTree = "<group>";
+		};
+		554CDD4A1A86839700B20E25 /* TTTTimeIntervalFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				554CDD471A86839000B20E25 /* TTTTimeIntervalFormatter.h */,
+				554CDD481A86839000B20E25 /* TTTTimeIntervalFormatter.m */,
+			);
+			name = TTTTimeIntervalFormatter;
+			sourceTree = "<group>";
+		};
 		55C7D5481A83B5DF009D59D3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				55C7D5551A83B72A009D59D3 /* SiriusUser.h */,
-				55C7D5561A83B72A009D59D3 /* SiriusUser.m */,
-				55C7D54F1A83B71C009D59D3 /* SiriusPet.h */,
-				55C7D5501A83B71C009D59D3 /* SiriusPet.m */,
-				55C7D5511A83B71C009D59D3 /* SiriusPhoto.h */,
-				55C7D5521A83B71C009D59D3 /* SiriusPhoto.m */,
-				55C7D54C1A83B6E2009D59D3 /* SiriusActivity.h */,
-				55C7D54D1A83B6E2009D59D3 /* SiriusActivity.m */,
+				554CDCE11A867ED800B20E25 /* SiriusActivity.h */,
+				554CDCE21A867ED800B20E25 /* SiriusActivity.m */,
+				554CDCDE1A867EBA00B20E25 /* SiriusUser.h */,
+				554CDCDF1A867EBA00B20E25 /* SiriusUser.m */,
+				554CDCD81A867EAA00B20E25 /* SiriusPet.h */,
+				554CDCD91A867EAA00B20E25 /* SiriusPet.m */,
+				554CDCDA1A867EAA00B20E25 /* SiriusPhoto.h */,
+				554CDCDB1A867EAA00B20E25 /* SiriusPhoto.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -189,6 +245,7 @@
 		55C7D5581A83B78C009D59D3 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				554CDD4A1A86839700B20E25 /* TTTTimeIntervalFormatter */,
 				55C7D5591A83B795009D59D3 /* GoogleAnalytics */,
 			);
 			name = Library;
@@ -234,39 +291,36 @@
 		8103BCD219AD217900BCF4C7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				55C7D5611A83B8A4009D59D3 /* MainController.h */,
-				55C7D5621A83B8A4009D59D3 /* MainController.m */,
-				55C7D5601A83B844009D59D3 /* Notifications.h */,
-				55C7D5491A83B640009D59D3 /* Utility.h */,
-				8103BCD319AD217900BCF4C7 /* AppDelegate.h */,
-				8103BCD419AD217900BCF4C7 /* AppDelegate.m */,
-				8103BCD519AD217900BCF4C7 /* LoginViewController.h */,
-				8103BCD619AD217900BCF4C7 /* LoginViewController.m */,
-				8103BCD719AD217900BCF4C7 /* UserDetailsViewController.h */,
-				8103BCD819AD217900BCF4C7 /* UserDetailsViewController.m */,
-				55C7D5261A83B58B009D59D3 /* SiriusActivityViewController.h */,
-				55C7D5271A83B58B009D59D3 /* SiriusActivityViewController.m */,
-				55C7D5281A83B58B009D59D3 /* SiriusActivityViewController.xib */,
-				55C7D5291A83B58B009D59D3 /* SiriusCameraNavControllerViewController.h */,
-				55C7D52A1A83B58B009D59D3 /* SiriusCameraNavControllerViewController.m */,
-				55C7D52B1A83B58B009D59D3 /* SiriusCameraViewController.h */,
-				55C7D52C1A83B58B009D59D3 /* SiriusCameraViewController.m */,
-				55C7D52D1A83B58B009D59D3 /* SiriusCameraViewController.xib */,
-				55C7D52E1A83B58B009D59D3 /* SiriusFeedViewController.h */,
-				55C7D52F1A83B58B009D59D3 /* SiriusFeedViewController.m */,
-				55C7D5301A83B58B009D59D3 /* SiriusFeedViewController.xib */,
-				55C7D56D1A83BCF2009D59D3 /* SiriusSignUpViewController.m */,
-				55C7D56C1A83BCD8009D59D3 /* SiriusSignUpViewController.h */,
-				55C7D5311A83B58B009D59D3 /* SiriusLogInViewController.h */,
-				55C7D5321A83B58B009D59D3 /* SiriusLogInViewController.m */,
-				55C7D5331A83B58B009D59D3 /* SiriusProfileViewController.h */,
-				55C7D5341A83B58B009D59D3 /* SiriusProfileViewController.m */,
-				55C7D5351A83B58B009D59D3 /* SiriusProfileViewController.xib */,
-				55C7D5361A83B58B009D59D3 /* SiriusTabBarControllerViewController.h */,
-				55C7D5371A83B58B009D59D3 /* SiriusTabBarControllerViewController.m */,
-				55C7D5451A83B5C8009D59D3 /* SiriusViewController.h */,
-				55C7D5461A83B5C8009D59D3 /* SiriusViewController.m */,
-				55C7D5381A83B58B009D59D3 /* SiriusTabBarControllerViewController.xib */,
+				554CDD2E1A86801B00B20E25 /* Parse */,
+				554CDD2A1A86800E00B20E25 /* MainController.h */,
+				554CDD2B1A86800E00B20E25 /* MainController.m */,
+				554CDD2C1A86800E00B20E25 /* Notifications.h */,
+				554CDD271A86800200B20E25 /* AppDelegate.h */,
+				554CDD281A86800200B20E25 /* AppDelegate.m */,
+				554CDD261A867FF400B20E25 /* Utility.h */,
+				554CDD191A867FE500B20E25 /* SiriusProfileViewController.h */,
+				554CDD1A1A867FE500B20E25 /* SiriusProfileViewController.m */,
+				554CDD1B1A867FE500B20E25 /* SiriusProfileViewController.xib */,
+				554CDD1C1A867FE500B20E25 /* SiriusSignUpViewController.h */,
+				554CDD1D1A867FE500B20E25 /* SiriusSignUpViewController.m */,
+				554CDD1E1A867FE500B20E25 /* SiriusTabBarControllerViewController.h */,
+				554CDD1F1A867FE500B20E25 /* SiriusTabBarControllerViewController.m */,
+				554CDD201A867FE500B20E25 /* SiriusTabBarControllerViewController.xib */,
+				554CDD041A867FC800B20E25 /* SiriusActivityViewController.h */,
+				554CDD051A867FC800B20E25 /* SiriusActivityViewController.m */,
+				554CDD061A867FC800B20E25 /* SiriusActivityViewController.xib */,
+				554CDD071A867FC800B20E25 /* SiriusCameraNavControllerViewController.h */,
+				554CDD081A867FC800B20E25 /* SiriusCameraNavControllerViewController.m */,
+				554CDD091A867FC800B20E25 /* SiriusCameraViewController.h */,
+				554CDD0A1A867FC800B20E25 /* SiriusCameraViewController.m */,
+				554CDD0B1A867FC800B20E25 /* SiriusCameraViewController.xib */,
+				554CDD0C1A867FC800B20E25 /* SiriusFeedViewController.h */,
+				554CDD0D1A867FC800B20E25 /* SiriusFeedViewController.m */,
+				554CDD0E1A867FC800B20E25 /* SiriusFeedViewController.xib */,
+				554CDD0F1A867FC800B20E25 /* SiriusLogInViewController.h */,
+				554CDD101A867FC800B20E25 /* SiriusLogInViewController.m */,
+				554CDD4B1A8685F100B20E25 /* SiriusViewController.h */,
+				554CDD4C1A8685F100B20E25 /* SiriusViewController.m */,
 			);
 			name = Classes;
 			path = IntegratingFacebookTutorial/Classes;
@@ -275,17 +329,17 @@
 		8103BCDD19AD217900BCF4C7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8103BCE919AD217900BCF4C7 /* LoginViewController.xib */,
-				8103BCEA19AD217900BCF4C7 /* TableHeaderView.xib */,
-				8103BCDE19AD217900BCF4C7 /* Default-568h@2x.png */,
-				8103BCDF19AD217900BCF4C7 /* Default.png */,
-				8103BCE019AD217900BCF4C7 /* Default@2x.png */,
-				8103BCE319AD217900BCF4C7 /* Icon.png */,
-				8103BCE419AD217900BCF4C7 /* Icon@2x.png */,
-				8103BCE519AD217900BCF4C7 /* login-button-small-pressed.png */,
-				8103BCE619AD217900BCF4C7 /* login-button-small-pressed@2x.png */,
-				8103BCE719AD217900BCF4C7 /* login-button-small.png */,
-				8103BCE819AD217900BCF4C7 /* login-button-small@2x.png */,
+				554CDCE91A867F3700B20E25 /* Default-568h@2x.png */,
+				554CDCEA1A867F3700B20E25 /* Default.png */,
+				554CDCEB1A867F3700B20E25 /* Default@2x.png */,
+				554CDCEC1A867F3700B20E25 /* Icon.png */,
+				554CDCED1A867F3700B20E25 /* Icon@2x.png */,
+				554CDCEE1A867F3700B20E25 /* login-button-small-pressed.png */,
+				554CDCEF1A867F3700B20E25 /* login-button-small-pressed@2x.png */,
+				554CDCF01A867F3700B20E25 /* login-button-small.png */,
+				554CDCF11A867F3700B20E25 /* login-button-small@2x.png */,
+				554CDCF21A867F3700B20E25 /* LoginViewController.xib */,
+				554CDCF31A867F3700B20E25 /* TableHeaderView.xib */,
 			);
 			name = Resources;
 			path = IntegratingFacebookTutorial/Resources;
@@ -294,10 +348,10 @@
 		8103BD0619AD21C300BCF4C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8103BD0919AD21C300BCF4C7 /* SiriusProject-Info.plist */,
-				8103BD0719AD21C300BCF4C7 /* InfoPlist.strings */,
-				8103BD0A19AD21C300BCF4C7 /* SiriusProject-Prefix.pch */,
-				8103BD0B19AD21C300BCF4C7 /* main.m */,
+				554CDCFF1A867F7300B20E25 /* InfoPlist.strings */,
+				554CDCE41A867F0800B20E25 /* main.m */,
+				554CDCE51A867F0800B20E25 /* SiriusProject-Info.plist */,
+				554CDCE61A867F0800B20E25 /* SiriusProject-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			path = "IntegratingFacebookTutorial/Supporting Files";
@@ -327,8 +381,8 @@
 		D4DA79ED14D3345A0055F672 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				554CDD021A867FB000B20E25 /* libGoogleAnalyticsServices.a */,
 				55C7D56A1A83BBEB009D59D3 /* libsqlite3.0.dylib */,
-				55C7D5681A83BB35009D59D3 /* libGoogleAnalyticsServices.a */,
 				55C7D5661A83B969009D59D3 /* Social.framework */,
 				55C7D5641A83B962009D59D3 /* Accounts.framework */,
 				8103BCD119AD1F9E00BCF4C7 /* User Frameworks */,
@@ -387,23 +441,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55C7D53D1A83B58B009D59D3 /* SiriusCameraViewController.xib in Resources */,
-				8103BCF419AD217900BCF4C7 /* Icon.png in Resources */,
-				8103BD0C19AD21C300BCF4C7 /* InfoPlist.strings in Resources */,
-				55C7D53F1A83B58B009D59D3 /* SiriusFeedViewController.xib in Resources */,
-				8103BCF219AD217900BCF4C7 /* Default@2x.png in Resources */,
-				8103BCF619AD217900BCF4C7 /* login-button-small-pressed.png in Resources */,
-				8103BCFA19AD217900BCF4C7 /* LoginViewController.xib in Resources */,
-				8103BCF919AD217900BCF4C7 /* login-button-small@2x.png in Resources */,
-				8103BCF119AD217900BCF4C7 /* Default.png in Resources */,
-				8103BCF719AD217900BCF4C7 /* login-button-small-pressed@2x.png in Resources */,
-				8103BCFB19AD217900BCF4C7 /* TableHeaderView.xib in Resources */,
-				8103BCF019AD217900BCF4C7 /* Default-568h@2x.png in Resources */,
-				8103BCF519AD217900BCF4C7 /* Icon@2x.png in Resources */,
-				55C7D53A1A83B58B009D59D3 /* SiriusActivityViewController.xib in Resources */,
-				8103BCF819AD217900BCF4C7 /* login-button-small.png in Resources */,
-				55C7D5421A83B58B009D59D3 /* SiriusProfileViewController.xib in Resources */,
-				55C7D5441A83B58B009D59D3 /* SiriusTabBarControllerViewController.xib in Resources */,
+				554CDCFE1A867F3700B20E25 /* TableHeaderView.xib in Resources */,
+				554CDCF81A867F3700B20E25 /* Icon@2x.png in Resources */,
+				554CDCF91A867F3700B20E25 /* login-button-small-pressed.png in Resources */,
+				554CDCF51A867F3700B20E25 /* Default.png in Resources */,
+				554CDCF71A867F3700B20E25 /* Icon.png in Resources */,
+				554CDD011A867F7300B20E25 /* InfoPlist.strings in Resources */,
+				554CDCF61A867F3700B20E25 /* Default@2x.png in Resources */,
+				554CDD251A867FE500B20E25 /* SiriusTabBarControllerViewController.xib in Resources */,
+				554CDD221A867FE500B20E25 /* SiriusProfileViewController.xib in Resources */,
+				554CDD121A867FC800B20E25 /* SiriusActivityViewController.xib in Resources */,
+				554CDD151A867FC800B20E25 /* SiriusCameraViewController.xib in Resources */,
+				554CDCFC1A867F3700B20E25 /* login-button-small@2x.png in Resources */,
+				554CDCFD1A867F3700B20E25 /* LoginViewController.xib in Resources */,
+				554CDCF41A867F3700B20E25 /* Default-568h@2x.png in Resources */,
+				554CDCE81A867F0800B20E25 /* SiriusProject-Info.plist in Resources */,
+				554CDD171A867FC800B20E25 /* SiriusFeedViewController.xib in Resources */,
+				554CDCFA1A867F3700B20E25 /* login-button-small-pressed@2x.png in Resources */,
+				554CDCFB1A867F3700B20E25 /* login-button-small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,34 +469,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55C7D5531A83B71C009D59D3 /* SiriusPet.m in Sources */,
-				55C7D5541A83B71C009D59D3 /* SiriusPhoto.m in Sources */,
-				55C7D53B1A83B58B009D59D3 /* SiriusCameraNavControllerViewController.m in Sources */,
-				8103BCED19AD217900BCF4C7 /* UserDetailsViewController.m in Sources */,
-				55C7D53C1A83B58B009D59D3 /* SiriusCameraViewController.m in Sources */,
-				55C7D56E1A83BCF2009D59D3 /* SiriusSignUpViewController.m in Sources */,
-				55C7D5471A83B5C8009D59D3 /* SiriusViewController.m in Sources */,
-				55C7D5411A83B58B009D59D3 /* SiriusProfileViewController.m in Sources */,
-				55C7D5571A83B72A009D59D3 /* SiriusUser.m in Sources */,
-				8103BCEC19AD217900BCF4C7 /* LoginViewController.m in Sources */,
-				55C7D5631A83B8A4009D59D3 /* MainController.m in Sources */,
-				8103BD0E19AD21C300BCF4C7 /* main.m in Sources */,
-				55C7D5431A83B58B009D59D3 /* SiriusTabBarControllerViewController.m in Sources */,
-				55C7D54E1A83B6E2009D59D3 /* SiriusActivity.m in Sources */,
-				8103BCEB19AD217900BCF4C7 /* AppDelegate.m in Sources */,
-				55C7D5391A83B58B009D59D3 /* SiriusActivityViewController.m in Sources */,
-				55C7D5401A83B58B009D59D3 /* SiriusLogInViewController.m in Sources */,
-				55C7D53E1A83B58B009D59D3 /* SiriusFeedViewController.m in Sources */,
+				554CDD3D1A86802A00B20E25 /* PAPUtility.m in Sources */,
+				554CDD491A86839000B20E25 /* TTTTimeIntervalFormatter.m in Sources */,
+				554CDD461A86810200B20E25 /* UIImage+RoundedCornerAdditions.m in Sources */,
+				554CDD141A867FC800B20E25 /* SiriusCameraViewController.m in Sources */,
+				554CDD131A867FC800B20E25 /* SiriusCameraNavControllerViewController.m in Sources */,
+				554CDCE71A867F0800B20E25 /* main.m in Sources */,
+				554CDD231A867FE500B20E25 /* SiriusSignUpViewController.m in Sources */,
+				554CDD111A867FC800B20E25 /* SiriusActivityViewController.m in Sources */,
+				554CDD3A1A86802A00B20E25 /* PAPCache.m in Sources */,
+				554CDD451A86810200B20E25 /* UIImage+ResizeAdditions.m in Sources */,
+				554CDD211A867FE500B20E25 /* SiriusProfileViewController.m in Sources */,
+				554CDD291A86800200B20E25 /* AppDelegate.m in Sources */,
+				554CDCDD1A867EAA00B20E25 /* SiriusPhoto.m in Sources */,
+				554CDD3C1A86802A00B20E25 /* PAPProfileImageView.m in Sources */,
+				554CDCE01A867EBA00B20E25 /* SiriusUser.m in Sources */,
+				554CDD161A867FC800B20E25 /* SiriusFeedViewController.m in Sources */,
+				554CDD241A867FE500B20E25 /* SiriusTabBarControllerViewController.m in Sources */,
+				554CDCE31A867ED800B20E25 /* SiriusActivity.m in Sources */,
+				554CDD4D1A8685F100B20E25 /* SiriusViewController.m in Sources */,
+				554CDD441A86810200B20E25 /* UIImage+AlphaAdditions.m in Sources */,
+				554CDCDC1A867EAA00B20E25 /* SiriusPet.m in Sources */,
+				554CDD391A86802A00B20E25 /* PAPBaseTextCell.m in Sources */,
+				554CDD2D1A86800E00B20E25 /* MainController.m in Sources */,
+				554CDD181A867FC800B20E25 /* SiriusLogInViewController.m in Sources */,
+				554CDD3B1A86802A00B20E25 /* PAPConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8103BD0719AD21C300BCF4C7 /* InfoPlist.strings */ = {
+		554CDCFF1A867F7300B20E25 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8103BD0819AD21C300BCF4C7 /* en */,
+				554CDD001A867F7300B20E25 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -522,11 +584,11 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IntegratingFacebookTutorial/Supporting Files/SiriusProject-Prefix.pch";
-				INFOPLIST_FILE = "IntegratingFacebookTutorial/Supporting Files/SiriusProject-Info.plist";
+				GCC_PREFIX_HEADER = "Sirius/Supporting Files/SiriusProject-Prefix.pch";
+				INFOPLIST_FILE = "Sirius/Supporting Files/SiriusProject-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/IntegratingFacebookTutorial/Classes",
+					"$(PROJECT_DIR)/Sirius/Classes",
 				);
 				PRODUCT_NAME = SiriusProject;
 			};
@@ -541,11 +603,11 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IntegratingFacebookTutorial/Supporting Files/SiriusProject-Prefix.pch";
-				INFOPLIST_FILE = "IntegratingFacebookTutorial/Supporting Files/SiriusProject-Info.plist";
+				GCC_PREFIX_HEADER = "Sirius/Supporting Files/SiriusProject-Prefix.pch";
+				INFOPLIST_FILE = "Sirius/Supporting Files/SiriusProject-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/IntegratingFacebookTutorial/Classes",
+					"$(PROJECT_DIR)/Sirius/Classes",
 				);
 				PRODUCT_NAME = SiriusProject;
 			};

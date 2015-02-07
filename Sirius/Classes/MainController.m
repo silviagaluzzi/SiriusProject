@@ -7,9 +7,9 @@
 //
 
 #import "MainController.h"
-//#import "PAPUtility.h"
-//#import "PAPCache.h"
-//#import "PAPConstants.h"
+#import "PAPUtility.h"
+#import "PAPCache.h"
+#import "PAPConstants.h"
 
 
 @implementation MainController
@@ -66,10 +66,10 @@
     }
     
     // Check if user is missing a Facebook ID
-    if ([PAPUtility userHasValidFacebookData:[CAOUser currentUser]]) {
+    if ([PAPUtility userHasValidFacebookData:[SiriusUser currentUser]]) {
         // User has Facebook ID.
         // refresh profile image
-        NSString *facebookId = [CAOUser currentUser].facebookId;
+        NSString *facebookId = [SiriusUser currentUser].facebookId;
         [self downLoadUserPicture:facebookId];
         
         // refresh Facebook friends on each launch
@@ -80,7 +80,7 @@
                 [self facebookRequestDidFailWithError:error];
             }
         }];
-    } else if ([PFFacebookUtils isLinkedWithUser: [CAOUser currentUser]]) {
+    } else if ([PFFacebookUtils isLinkedWithUser: [SiriusUser currentUser]]) {
         NSLog(@"Current user is missing their Facebook ID");
         [FBRequestConnection startForMeWithCompletionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
             if (!error) {
@@ -91,6 +91,14 @@
         }];
     }
  */
+}
+
+- (BOOL)isValidUser:(SiriusUser *)user {
+    if ([PAPUtility userHasValidFacebookData:[SiriusUser currentUser]]) {
+        return YES;
+    } else {
+        return NO;
+    }
 }
 
 @end

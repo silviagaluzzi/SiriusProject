@@ -19,9 +19,6 @@
  *
  */
 
-//
-// Prefix header for all source files of the 'IntegratingFacebookTutorial' target in the 'IntegratingFacebookTutorial' project
-//
 
 #import <Availability.h>
 

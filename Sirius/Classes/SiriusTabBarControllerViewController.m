@@ -120,9 +120,10 @@
       
 }
 
+//TODO: è da fare anche per il signup
 - (void)loggedInAsUser:(SiriusUser *)user {
     
-   /*if (![[MainController sharedController] isValidUser:user] && [PFFacebookUtils isLinkedWithUser: user]) {
+   if (![[MainController sharedController] isValidUser:user] && [PFFacebookUtils isLinkedWithUser: user]) {
         
         //TODO: progress hud
 //        [SVProgressHUD showWithStatus:NSLocalizedString(@"Loading", nil)];
@@ -135,10 +136,11 @@
             }
             [self dismissViewControllerAnimated:YES completion:nil];
             
-            [SVProgressHUD dismiss];
+          //  [SVProgressHUD dismiss];
         }];
     } else {
-        if (!user.displayName) {
+        
+        /*if (!user.displayName) {
             user.displayName	= [user username];
             [user saveEventually];
         }
@@ -157,9 +159,10 @@
 
 #pragma mark - PFLogInViewControllerDelegate
 
-- (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(SiriusUser *)user
+/*- (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(SiriusUser *)user
 {
     [self loggedInAsUser:user];
 }
-
+*/
+}
 @end

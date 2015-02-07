@@ -26,9 +26,9 @@
 - (void)sendPushNotificationOfType: (NSString *)aType toUser: (SiriusUser *)aUser;
 
 //- (void)logOut;
-//- (BOOL)isValidUser:(SiriusUser *)user;
-//- (void)facebookRequestDidLoad:(id)result;
-//- (void)facebookRequestDidFailWithError:(NSError *)error;
+- (BOOL)isValidUser:(SiriusUser *)user;
+- (void)facebookRequestDidLoad:(id)result;
+- (void)facebookRequestDidFailWithError:(NSError *)error;
 - (void)refreshCurrentUserData;
 //- (void)loadAttributesForPhoto:(PFObject*)photo;
 
