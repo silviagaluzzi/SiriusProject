@@ -52,6 +52,8 @@
 		554CDD461A86810200B20E25 /* UIImage+RoundedCornerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD431A86810200B20E25 /* UIImage+RoundedCornerAdditions.m */; };
 		554CDD491A86839000B20E25 /* TTTTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD481A86839000B20E25 /* TTTTimeIntervalFormatter.m */; };
 		554CDD4D1A8685F100B20E25 /* SiriusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDD4C1A8685F100B20E25 /* SiriusViewController.m */; };
+		55B703DB1A87B531000B7B1E /* SiriusProfileEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B703D91A87B531000B7B1E /* SiriusProfileEditViewController.m */; };
+		55B703DC1A87B531000B7B1E /* SiriusProfileEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55B703DA1A87B531000B7B1E /* SiriusProfileEditViewController.xib */; };
 		55C7D5651A83B962009D59D3 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C7D5641A83B962009D59D3 /* Accounts.framework */; };
 		55C7D5671A83B969009D59D3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C7D5661A83B969009D59D3 /* Social.framework */; };
 		55C7D5701A83C164009D59D3 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C7D56F1A83C164009D59D3 /* Parse.framework */; };
@@ -144,6 +146,9 @@
 		554CDD481A86839000B20E25 /* TTTTimeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTTimeIntervalFormatter.m; path = Sirius/Classes/TTTTimeIntervalFormatter.m; sourceTree = "<group>"; };
 		554CDD4B1A8685F100B20E25 /* SiriusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusViewController.h; path = Sirius/Classes/SiriusViewController.h; sourceTree = SOURCE_ROOT; };
 		554CDD4C1A8685F100B20E25 /* SiriusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusViewController.m; path = Sirius/Classes/SiriusViewController.m; sourceTree = SOURCE_ROOT; };
+		55B703D81A87B531000B7B1E /* SiriusProfileEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiriusProfileEditViewController.h; path = Sirius/Classes/SiriusProfileEditViewController.h; sourceTree = SOURCE_ROOT; };
+		55B703D91A87B531000B7B1E /* SiriusProfileEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiriusProfileEditViewController.m; path = Sirius/Classes/SiriusProfileEditViewController.m; sourceTree = SOURCE_ROOT; };
+		55B703DA1A87B531000B7B1E /* SiriusProfileEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SiriusProfileEditViewController.xib; path = Sirius/Classes/SiriusProfileEditViewController.xib; sourceTree = SOURCE_ROOT; };
 		55C7D5641A83B962009D59D3 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		55C7D5661A83B969009D59D3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		55C7D56A1A83BBEB009D59D3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
@@ -227,6 +232,19 @@
 			name = TTTTimeIntervalFormatter;
 			sourceTree = "<group>";
 		};
+		55B703D71A87B511000B7B1E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				554CDD191A867FE500B20E25 /* SiriusProfileViewController.h */,
+				554CDD1A1A867FE500B20E25 /* SiriusProfileViewController.m */,
+				554CDD1B1A867FE500B20E25 /* SiriusProfileViewController.xib */,
+				55B703D81A87B531000B7B1E /* SiriusProfileEditViewController.h */,
+				55B703D91A87B531000B7B1E /* SiriusProfileEditViewController.m */,
+				55B703DA1A87B531000B7B1E /* SiriusProfileEditViewController.xib */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 		55C7D5481A83B5DF009D59D3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,6 +309,7 @@
 		8103BCD219AD217900BCF4C7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				55B703D71A87B511000B7B1E /* Profile */,
 				554CDD2E1A86801B00B20E25 /* Parse */,
 				554CDD2A1A86800E00B20E25 /* MainController.h */,
 				554CDD2B1A86800E00B20E25 /* MainController.m */,
@@ -298,9 +317,6 @@
 				554CDD271A86800200B20E25 /* AppDelegate.h */,
 				554CDD281A86800200B20E25 /* AppDelegate.m */,
 				554CDD261A867FF400B20E25 /* Utility.h */,
-				554CDD191A867FE500B20E25 /* SiriusProfileViewController.h */,
-				554CDD1A1A867FE500B20E25 /* SiriusProfileViewController.m */,
-				554CDD1B1A867FE500B20E25 /* SiriusProfileViewController.xib */,
 				554CDD1C1A867FE500B20E25 /* SiriusSignUpViewController.h */,
 				554CDD1D1A867FE500B20E25 /* SiriusSignUpViewController.m */,
 				554CDD1E1A867FE500B20E25 /* SiriusTabBarControllerViewController.h */,
@@ -452,6 +468,7 @@
 				554CDD221A867FE500B20E25 /* SiriusProfileViewController.xib in Resources */,
 				554CDD121A867FC800B20E25 /* SiriusActivityViewController.xib in Resources */,
 				554CDD151A867FC800B20E25 /* SiriusCameraViewController.xib in Resources */,
+				55B703DC1A87B531000B7B1E /* SiriusProfileEditViewController.xib in Resources */,
 				554CDCFC1A867F3700B20E25 /* login-button-small@2x.png in Resources */,
 				554CDCFD1A867F3700B20E25 /* LoginViewController.xib in Resources */,
 				554CDCF41A867F3700B20E25 /* Default-568h@2x.png in Resources */,
@@ -488,6 +505,7 @@
 				554CDD241A867FE500B20E25 /* SiriusTabBarControllerViewController.m in Sources */,
 				554CDCE31A867ED800B20E25 /* SiriusActivity.m in Sources */,
 				554CDD4D1A8685F100B20E25 /* SiriusViewController.m in Sources */,
+				55B703DB1A87B531000B7B1E /* SiriusProfileEditViewController.m in Sources */,
 				554CDD441A86810200B20E25 /* UIImage+AlphaAdditions.m in Sources */,
 				554CDCDC1A867EAA00B20E25 /* SiriusPet.m in Sources */,
 				554CDD391A86802A00B20E25 /* PAPBaseTextCell.m in Sources */,

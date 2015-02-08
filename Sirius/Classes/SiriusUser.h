@@ -9,7 +9,10 @@
 #import <Parse/Parse.h>
 
 @interface SiriusUser : PFUser
-
+//TODO:chiedere a Luca per user name\image
+@property (strong) NSString	*displayName;
+@property (strong) PFFile	*profilePictureMedium;
+@property (strong) PFFile	*profilePictureSmall;
 @property (strong) NSString	*emailVerified;
 @property (strong) NSString	*birthCity;
 @property (strong) NSString	*birthCountry;
@@ -24,5 +27,7 @@
 @property (strong) NSString	*residenceCountry;
 @property (strong) NSDate 	*createAt;
 @property (strong) NSDate 	*updateAt;
+
+
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "SiriusProfileViewController.h"
+#import "SiriusProfileEditViewController.h"
 
 @interface SiriusProfileViewController ()
 
@@ -16,7 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    SiriusProfileEditViewController	*vc	= [[SiriusProfileEditViewController alloc] initWithNibName: @"SiriusProfileEditViewController"
+                                                                                      bundle: nil];
+    
+    if (vc.view) {
+/*        vc.aUser		= self.user;
+        vc.userImage	= self.headerView.profileImage.image;
+        vc.followers	= self.followers;
+        vc.following	= self.following;
+*/
+        [self.navigationController pushViewController: vc animated: YES];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +35,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
