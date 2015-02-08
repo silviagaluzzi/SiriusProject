@@ -6,9 +6,10 @@
 //  Copyright (c) 2015 Silvia Galuzzi. All rights reserved.
 //
 
+#import "SiriusTabBarControllerViewController.h"
 #import <Parse/Parse.h>
 #import <ParseFacebookUtils/PFFacebookUtils.h>
-#import "SiriusTabBarControllerViewController.h"
+#import "PAPConstants.h"
 #import "SiriusUser.h"
 #import "SiriusLogInViewController.h"
 #import "SiriusSignUpViewController.h"
@@ -19,6 +20,7 @@
 @interface SiriusTabBarControllerViewController ()
 
 - (void)loggedInAsUser:(SiriusUser *)user;
+
 @end
 
 @implementation SiriusTabBarControllerViewController
@@ -34,7 +36,7 @@
                                                      name:NOTIFICATIONS_AUTH_SHOWLOGIN
                                                    object:nil];
     }
-*/ 
+*/
     return self;
 
 }
@@ -123,7 +125,7 @@
 //TODO: è da fare anche per il signup
 - (void)loggedInAsUser:(SiriusUser *)user {
     
-   if (![[MainController sharedController] isValidUser:user] && [PFFacebookUtils isLinkedWithUser: user]) {
+   /*if (![[MainController sharedController] isValidUser:user] && [PFFacebookUtils isLinkedWithUser: user]) {
         
         //TODO: progress hud
 //        [SVProgressHUD showWithStatus:NSLocalizedString(@"Loading", nil)];
@@ -140,7 +142,7 @@
         }];
     } else {
         
-        /*if (!user.displayName) {
+        if (!user.displayName) {
             user.displayName	= [user username];
             [user saveEventually];
         }
@@ -155,14 +157,33 @@
     self.selectedIndex	= 0;
     
     [[MainController sharedController] postNotificationWithName:NOTIFICATIONS_HOME_RELOAD];
+    //}
+
 }
+
 
 #pragma mark - PFLogInViewControllerDelegate
 
-/*- (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(SiriusUser *)user
-{
+- (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:
+(SiriusUser *)user {
+    
     [self loggedInAsUser:user];
+    
 }
-*/
+
+#pragma mark - PFSignUpViewControllerDelegate
+- (void) signUpViewController:(PFSignUpViewController *)signUpController didSignUpUser:(SiriusUser *)user {
+
+    NSString	*strPrefs	= [NSString stringWithFormat:@"%@ %@ %@ %@ %@", kNewsPushNotification, kPAPActivityTypeFollow, kPAPActivityTypeJoined,  kPAPActivityTypeLike, kPAPActivityTypeComment];
+    
+    [user setObject:strPrefs forKey:@"channels"];
+    [user save];
+    
+    [self loggedInAsUser:user];
+    
+    [signUpController dismissViewControllerAnimated:NO completion:nil];
+    [self dismissViewControllerAnimated:NO completion:nil];
+
 }
+
 @end

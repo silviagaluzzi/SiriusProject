@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "IntegratingFacebookTutorial/Classes/SiriusTabBarControllerViewController.m"
-            timestampString = "444927095.33644"
+            filePath = "Sirius/Classes/SiriusTabBarControllerViewController.m"
+            timestampString = "445099706.6381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "-showLogin:"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "-newPhoto:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "IntegratingFacebookTutorial/Classes/LoginViewController.m"
-            timestampString = "444923937.413978"
+            filePath = "Sirius/Classes/SiriusTabBarControllerViewController.m"
+            timestampString = "445099706.6381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "-initWithNibName:bundle:"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "-loggedInAsUser:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,29 +41,45 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "IntegratingFacebookTutorial/Classes/LoginViewController.m"
-            timestampString = "444923939.235665"
+            filePath = "Sirius/Classes/SiriusTabBarControllerViewController.m"
+            timestampString = "445099706.6381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "-viewWillAppear:"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "-loggedInAsUser:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "IntegratingFacebookTutorial/Classes/SiriusTabBarControllerViewController.m"
-            timestampString = "444927095.33644"
+            filePath = "Sirius/Classes/SiriusTabBarControllerViewController.m"
+            timestampString = "445100419.816292"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "-viewDidAppear:"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "-logInViewController:didLogInUser:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sirius/Classes/SiriusTabBarControllerViewController.m"
+            timestampString = "445100395.81604"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "-signUpViewController:didSignUpUser:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
